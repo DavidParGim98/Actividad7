@@ -1,0 +1,43 @@
+﻿<Window x:Class="Actividad7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Actividad7"
+        mc:Ignorable="d"
+        Title="TextoCambia" Height="450" Width="1000">
+    <Grid>
+        <TextBlock TextAlignment="Center" Margin="34,81,116,223" x:Name="Caja" FontSize="30" Text="Texto para cambiar"/>
+
+        <RadioButton Content="Pequeño" Margin="152,309,768,70" Checked="Check_RadioButton" Tag="36" RenderTransformOrigin="2,2">
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="4" ScaleY="4"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="324" Y="180"/>
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+        </RadioButton>
+        <RadioButton Content="Mediano" RenderTransformOrigin="-0.518,2.184" Margin="252,501,670,-120" Tag="48" IsChecked="True" Checked="Check_RadioButton" >
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="4" ScaleY="4"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+        </RadioButton>
+        <RadioButton Content="Grande" Margin="770,311,157,72" Checked="Check_RadioButton" Tag="72" RenderTransformOrigin="2,2">
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="4" ScaleY="4"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="292.5" Y="162"/>
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+        </RadioButton>
+    </Grid>
+</Window>
