@@ -12,10 +12,10 @@
         <RadioButton Content="Pequeño" Margin="152,309,768,70" Checked="Check_RadioButton" Tag="36" RenderTransformOrigin="2,2">
             <RadioButton.RenderTransform>
                 <TransformGroup>
-                    <ScaleTransform ScaleX="4" ScaleY="4"/>
+                    <ScaleTransform ScaleX="4" ScaleY="4" />
                     <SkewTransform/>
                     <RotateTransform/>
-                    <TranslateTransform X="324" Y="180"/>
+                    <TranslateTransform X="324" Y="180" />
                 </TransformGroup>
             </RadioButton.RenderTransform>
         </RadioButton>
